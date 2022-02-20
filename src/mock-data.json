@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "userName": "Rosie Simpson",
+    "email": "rosie@mail.com",
+    "date": "15.02.2022",
+    "group": "React"
+  },
+  {
+    "id": 2,
+    "userName": "Hermione Kline",
+    "email": "hkline@mail.com",
+    "date": "17.02.2022",
+    "group": "Vue"
+  },
+  {
+    "id": 3,
+    "userName": "Eden Clements",
+    "email": "eclements@mail.com",
+    "date": "13.02.2022",
+    "group": "Angular"
+  },
+  {
+    "id": 4,
+    "userName": "Annie Copeland",
+    "email": "acopeland@mail.com",
+    "date": "14.02.2022",
+    "group": "Node.js"
+  },
+  {
+    "id": 5,
+    "userName": "Raymond Edwards",
+    "email": "r.dwards@mail.com",
+    "date": "12.02.2022",
+    "group": "React"
+  }
+]

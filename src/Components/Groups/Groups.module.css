@@ -1,0 +1,103 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 8px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border-bottom: 1px solid darkseagreen;
+
+  text-align: left;
+  padding: 8px;
+  /* font-size: 32px; */
+}
+
+th {
+  background-color: darkseagreen;
+}
+
+td {
+  background-color: #d1e4d0;
+}
+
+form {
+  display: flex;
+  gap: 25px;
+}
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item {
+  border: 1px solid darkseagreen;
+  border-radius: 12px;
+
+  height: 40px;
+  margin-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.inputId {
+  width: 20px;
+  height: 20px;
+  border: 1px solid darkseagreen;
+  background-color: #ecf4ec;
+  border-radius: 12px;
+}
+
+.input {
+  height: 30px;
+  border: 1px solid darkseagreen;
+  background-color: #d1e4d0;
+  border-radius: 12px;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 20px;
+  width: 20px;
+}
+
+.inputEditing {
+  width: 150px;
+  padding: 0px 10px;
+  height: 20px;
+  border: 1px solid darkseagreen;
+  background-color: #ecf4ec;
+  border-radius: 12px;
+}
+
+.inputAdd {
+  width: 200px;
+  padding: 0px 10px;
+  height: 30px;
+  border: 1px solid darkseagreen;
+  background-color: #ecf4ec;
+  border-radius: 12px;
+}
+
+.btn {
+  width: 60px;
+  height: 30px;
+  background-color: darkseagreen;
+  color: #fff;
+
+  border: 1px solid darkseagreen;
+  border-radius: 12px;
+}
+
+.btn:last-child {
+  margin-left: 10px;
+}
